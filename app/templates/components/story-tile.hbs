@@ -1,2 +1,2 @@
- <li>{{story.title}} by {{story.author}} at {{story.date}}></li>
+ <li>{{#link-to 'story' story.id}} {{story.title}} by {{story.author}} at {{story.date}} {{/link-to}}</li>
 <button {{action 'delete' story}}>Kill It!</button>
