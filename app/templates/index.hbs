@@ -4,6 +4,6 @@ We hope you find exactly what you're looking for in kickass reading material.
 
 <ul>
   {{#each model as |story|}}
-     <li>{{story.title}} by {{story.author}} at {{story.date}}</li>
+     {{story-tile story=story destroyStory="destroyStory"}}
   {{/each}}
 </ul>

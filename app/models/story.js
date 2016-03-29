@@ -4,6 +4,6 @@ export default DS.Model.extend({
   title: DS.attr(),
   author: DS.attr(),
   body: DS.attr(),
-  image: DS.attr(),
-  date: DS.attr()
+  date: DS.attr(),
+  image: DS.attr()
 });
