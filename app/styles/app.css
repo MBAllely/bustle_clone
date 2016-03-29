@@ -1,0 +1,23 @@
+body {
+  background-color: lightblue;
+}
+
+.jumbotron {
+  background-color: gray;
+  background-image: url('http://www.ebc-paulding.org/wp-content/uploads/2012/06/News.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  height: 300px;
+}
+
+.navbar {
+    background-color: darkgray;
+    color: black;
+}
+.navbar-toggle {
+  background-color: black;
+}
+.navbar-header {
+  color: black;
+}
