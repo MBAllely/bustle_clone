@@ -1,1 +1,9 @@
-{{outlet}}
+<h1> Welcome to Fake Bustle </h1>
+
+We hope you find exactly what you're looking for in kickass reading material.
+
+<ul>
+  {{#each model as |story|}}
+     <li>{{story.title}} by {{story.author}} at {{story.date}}</li>
+  {{/each}}
+</ul>
